@@ -21,10 +21,10 @@ spring.resources.static-locations: "file:src/main/resources"
 ---
 spring.profiles: heroku
 server:
-  port: $PORT
+  port: "${PORT}"
 spring:
   datasource:
-    url: ${JDBC_DATABASE_URL}
-    username: ${JDBC_DATABASE_USERNAME}
-    password: ${JDBC_DATABASE_PASSWORD}
+    url: "${JDBC_DATABASE_URL}"
+    username: "${JDBC_DATABASE_USERNAME}"
+    password: "${JDBC_DATABASE_PASSWORD}"
 spring.h2.console.enabled: false
