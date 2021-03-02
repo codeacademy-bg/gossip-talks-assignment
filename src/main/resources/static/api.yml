@@ -1,22 +1,22 @@
 openapi: 3.0.1
 info:
   version: '1.0.0'
-  title: Gossip Talks | Клюкарник
+  title: Gossip Talks
   description: |
-    ## Описание
-    Целта на тази задача е да създадем един клюкарник, където всеки може да праща клюкини и да следи клюкините на своите приятели.
+    ## Description
+    The Gossip-Talks project is a simple clone of Twitter. There are many users, that can post gossipt. You can follow other users and read their gossips.
     ## Use Cases
     ![use cases](http://www.plantuml.com/plantuml/png/PSz12i8m48NXlQUOfIvw1MbnuKPGAXuWJOOs49EIDy7hEocsK5o-_oE1QI4cItc7mmkSgIbpSwPZpwE7wEwiJINAQQUNoSIHwM60JyfkHPMRlgAwiCPQdsM0pNvWkikaiShcouUPZJ1T4-3ddVHi77KX_0p_kEnDMuvEZ_a2)
   contact:
-    name: Team Apple | Rasberry
+    name: Start^IT Academy
     email: contact@example.com
-    url: 'http://ext4.codix.eu/jprogrammers/season-1/GOSSIP-TALKS'
+    url: 'http://startit.bg'
   license:
-    name: Apache 2.0
-    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+    name: MIT
+    url: 'https://raw.githubusercontent.com/start-it-io/gossip-talks-assignment/master/LICENSE'
 externalDocs:
   description: Find out how to use to build it and use it.
-  url: 'http://ext4.codix.eu/jprogrammers/season-1/GOSSIP-TALKS'
+  url: 'https://github.com/start-it-io/gossip-talks-assignment'
 servers:
   - url: /api/v1
   - url: http://localhost:8000/api/v1
@@ -352,7 +352,7 @@ components:
             id:
               type: string
               pattern: '[A-Z0-9]+'
-              description: A 32-radix representation of the gossip ID.
+              description: A 36-radix representation of the gossip ID.
             username:
               type: string
               pattern: '^[a-z0-8\\.\\-]+$'
