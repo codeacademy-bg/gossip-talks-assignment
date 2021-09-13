@@ -274,7 +274,7 @@ components:
       required: true
       schema:
         type: string
-        pattern: '^[a-z0-8\\.\\-]+$'
+        pattern: '^[a-z0-9\\.\\-]+$'
         example: 'john.dow'
 
   schemas:
@@ -289,7 +289,7 @@ components:
           description: The user e-mail.
         username:
           type: string
-          pattern: '^[a-z0-8\\.\\-]+$'
+          pattern: '^[a-z0-9\\.\\-]+$'
           description: A short nick name of the user.
         name:
           type: string
@@ -355,7 +355,7 @@ components:
               description: A 36-radix representation of the gossip ID.
             username:
               type: string
-              pattern: '^[a-z0-8\\.\\-]+$'
+              pattern: '^[a-z0-9\\.\\-]+$'
               description: A short nick name of the user.
             datetime:
               type: string
