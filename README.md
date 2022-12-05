@@ -1,5 +1,6 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+<a href="https://qoddi.com"><img style="height:32px" src="https://devcenter.qoddi.com/wp-content/uploads/2021/11/800px-transparent-logo.png" /></a>
 <img src="src/main/resources/static/images/logo_transparent.png" width="200" align="right" />
+
 
 # Клюкарник
 Целта на тази задача е да създадем един клюкарник, където всеки може да праща клюкини и да следи клюкините на своите приятели. (Подобие на Twitter)
